@@ -11,9 +11,9 @@ cdk.out
 .env
 my-env 
 
-certifiates/*.pem
-certifiates/*.key
-certifiates/*.crt 
-certifiates/*.csr 
+*.pem
+*.key
+*.crt 
+*.csr 
 
 
