@@ -34,7 +34,7 @@ This project demonstrates how real-world IoT platforms are designed — from **d
 ## 🗂️ Project Structure
 
 ```
-.
+infra/
 ├── bin/
 │   └── infra.ts                # CDK app entry point
 ├── lib/
@@ -47,11 +47,11 @@ This project demonstrates how real-world IoT platforms are designed — from **d
 │   ├── rpi-001.csr             # Device CSRs
 │   ├── rpi-001.crt             # Device certificates
 │   └── AmazonRootCA1.pem
-├── scripts/
 │   └── generate_csr.py         # Key + CSR generation script
 ├── package.json
 ├── tsconfig.json
 └── README.md
+
 ```
 
 ---
